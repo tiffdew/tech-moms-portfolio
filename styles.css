@@ -7,11 +7,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', serif;
 }
 
+
 .header-wrapper {
     height: 200px;
     background-color: #ffffff;
     color: #8a817c;
     display: flex;
+    letter-spacing: 3px;
     align-items: center;
     justify-content: center;
     position: sticky;
@@ -55,3 +57,32 @@ h1, h2, h3, h4, h5, h6 {
     height: 1px; 
     background: #8a817c 
    }
+
+
+.main-section {
+    align-items: center;
+    margin: 0px 150px 0 150px;
+}
+.column-wrapper {
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 1000px;
+    padding: 5px 125px 0px 145px;
+    margin: 10px;
+    
+
+}
+
+.column-1 {
+padding: 1px;
+margin: 50px;
+}
+
+.column-2 {
+}
+
+.column-3 {
+    padding: 10px;
+    margin: 42px;
+}
