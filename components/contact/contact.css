@@ -12,8 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-wrapper {
     height: 150px;
-    background-color: #ffffff;
-    color: #8a817c;
+    background-color: rgba(75, 70, 41, 0.5);
+    color: #ffffff;
     display: flex;
     letter-spacing: 3px;
     align-items: center;

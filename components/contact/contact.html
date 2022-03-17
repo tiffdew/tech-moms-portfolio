@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <script src="/app.js"></script>
 </head>
 
 <body>
@@ -18,10 +19,7 @@
     <div class="hline"></div>
     <div class="nav-link-wrapper">
         <nav class="link-wrapper">
-            <a class="nav-link" href="../../index.html">HOME</a>
-            <a class="nav-link" href="../about/about.html">ABOUT</a>
-            <a class="nav-link" href="../experience/experience.html">EXPERIENCE</a>
-            <a class="nav-link" href="contact.html">CONTACT</a>
+
         </nav>
     </div>
     <div class="hline"></div>
@@ -45,7 +43,7 @@
 
                     <a href="">
                         <div class="envelope">
-                            <i class=""></i>
+                            <i class="fas fa-envelope"></i>
                         </div>
 
 
@@ -57,6 +55,38 @@
         </div>
         </div>
     </footer>
+
+    <script src="contact.js"></script>
 </body>
 
 </html>
+
+<script>function setActiveLink() {
+        let links = document.getElementsByClassName('nav-link');
+
+        for (let i = 0; i < links.length; i++) {
+            console.log('CURRENT LINK:', links[i]);
+            console.log(links[i].getAttribute("href"));
+            console.log(document.location.pathname);
+            if (links[i].getAttribute("href") === document.location.pathname) {
+                links[i].style = 'text-decoration: underline';
+            }
+        }
+    }
+
+
+
+
+    function addNav(text, url, id, cls) {
+        var nav = '<a id="' + id + '" class="' + cls + '" href="' + url + '">' + text + '</a>'
+        //document.getElementById("link-test").innerHTML += nav;
+        //document.getElementById("link-test").appendChild(nav);
+        document.getElementsByClassName("link-wrapper")[0].innerHTML += nav;
+    }
+
+    addNav('HOME', '/Users/tiffanydewitt/Desktop/Tech-Moms/Portfolio/index.html', 'navHome', 'nav-link')
+    addNav('ABOUT', '/Users/tiffanydewitt/Desktop/Tech-Moms/Portfolio/components/about/about.html', 'navAbout', 'nav-link')
+    addNav('EXPERIENCE', '/Users/tiffanydewitt/Desktop/Tech-Moms/Portfolio/components/experience/experience.html', 'navExperience', 'nav-link')
+    addNav('CONTACT', '/Users/tiffanydewitt/Desktop/Tech-Moms/Portfolio/components/contact/contact.html', 'navContact', 'nav-link')
+
+    setActiveLink();</script>
