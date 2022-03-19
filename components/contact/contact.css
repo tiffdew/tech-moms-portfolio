@@ -68,12 +68,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-flex{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
+    padding: 50px;
 }
 
 .icons-flex{
     display:flex;
+    justify-content: center;
 
 }
 
@@ -108,7 +110,8 @@ a .square:hover{
     color: #52704C;
 }
 
+
 .envelope{
-    width: 100px;
-    height: 100px;
+  font-size: 100px;
+  padding: 3px;
 }

@@ -67,8 +67,6 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-around;
     width:405px;
 
-   
-   
 }
 
 .main-content {
@@ -79,3 +77,37 @@ h1, h2, h3, h4, h5, h6 {
     padding: 50px;
 }
 
+.button-spacing{
+   align-items: center;
+   justify-content:center;
+   margin: 0 100px 0 100px;
+}
+
+.sidebar-btn{
+    background-color: rgba(75, 70, 41, 0.5);
+    box-shadow: 5px 10px 18px #8a817c;
+    color:#ffffff;
+    font-size:18px;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.btn-flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button-section {
+    display:flex;
+    justify-content:center;
+    padding: 30px;
+}
