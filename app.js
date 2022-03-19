@@ -22,7 +22,7 @@ function addNav(text, url, id, cls) {
 }
 
 addNav('HOME', '/Users/tiffanydewitt/Desktop/Tech-Moms/Portfolio/index.html', 'navHome', 'nav-link')
-addNav('ABOUT', 'components/about/about.html', 'navAbout', 'nav-link')
+addNav('ABOUT', './components/about/about.html', 'navAbout', 'nav-link')
 addNav('EXPERIENCE', '/Users/tiffanydewitt/Desktop/Tech-Moms/Portfolio/components/experience/experience.html', 'navExperience', 'nav-link')
 addNav('CONTACT', '/Users/tiffanydewitt/Desktop/Tech-Moms/Portfolio/components/contact/contact.html', 'navContact', 'nav-link')
 
