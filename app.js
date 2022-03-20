@@ -31,9 +31,9 @@ function addNav(text, url, id, cls) {
     document.getElementsByClassName("link-wrapper")[0].innerHTML += nav;
 }
 
-addNav('HOME', '/index.html', 'navHome', 'nav-link')
-addNav('ABOUT', '/components/about/about.html', 'navAbout', 'nav-link')
-addNav('EXPERIENCE', '/components/experience/experience.html', 'navExperience', 'nav-link')
-addNav('CONTACT', '/components/contact/contact.html', 'navContact', 'nav-link')
+addNav('HOME', '/tech-moms-portfolio/index.html', 'navHome', 'nav-link')
+addNav('ABOUT', '/tech-moms-portfolio/components/about/about.html', 'navAbout', 'nav-link')
+addNav('EXPERIENCE', '/tech-moms-portfolio/components/experience/experience.html', 'navExperience', 'nav-link')
+addNav('CONTACT', '/tech-moms-portfolio/components/contact/contact.html', 'navContact', 'nav-link')
 
 setActiveLink();
