@@ -3,9 +3,7 @@ function setActiveLink() {
 
     for (let i = 0; i < links.length; i++) {
         console.log('CURRENT LINK:', links[i]);
-        console.log(links[i].getAttribute("href"));
-        console.log(document.location.pathname);
-        if (links[i].getAttribute("href") === document.location.pathname) {
+        if (links[i].innerHTML === 'EXPERIENCE') {
             links[i].style = 'text-decoration: underline';
         }
     }
