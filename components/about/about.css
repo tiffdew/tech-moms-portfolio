@@ -72,15 +72,23 @@ h1, h2, h3, h4, h5, h6 {
 .main-content {
     display: flex;
 }
-.sidebar-info {
+
+.sidebar-title{
+    font-size: 75px;
+    font-weight: 300;
+    padding: 30px;
+    color:rgba(38, 43, 40, 0.658);
+}
+.sidebar-main {
     display:flex;
-    padding: 50px;
+    padding: 20px;
+
 }
 
 .button-spacing{
    align-items: center;
    justify-content:center;
-   margin: 0 100px 0 100px;
+   margin: 0 25px 0 25px;
 }
 
 .sidebar-btn{
@@ -109,5 +117,6 @@ h1, h2, h3, h4, h5, h6 {
 .button-section {
     display:flex;
     justify-content:center;
-    padding: 30px;
+    padding: 10px;
+    margin: 0 0 0 400px;
 }
